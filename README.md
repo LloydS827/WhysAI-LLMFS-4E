@@ -34,9 +34,8 @@ WhysAI--**LLMFS**项目是由一系列mini-projects组成、围绕大模型主�
 | 3. RAG In Depth                                              |                         |                                   |          |                                                              |
 | 3. Agent In Depth                                            |                         |                                   |          |                                                              |
 | 4. Inference Optimization                                    |                         |                                   |          |                                                              |
+
 重要参考：[deeplearning.ai -- Short Courses](./deeplearning.ai-Short Courses.md)
-
-
 
 ## Key Resources
 
