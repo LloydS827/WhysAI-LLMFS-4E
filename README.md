@@ -35,7 +35,7 @@ WhysAI--**LLMFS**项目是由一系列mini-projects组成、围绕大模型主�
 | 3. Agent In Depth                                            |                         |                                   |          |                                                              |
 | 4. Inference Optimization                                    |                         |                                   |          |                                                              |
 
-重要参考：[deeplearning.ai -- Short Courses](https://github.com/LloydS827/WhysAI-LLMFS-4E/blob/main/deeplearning.ai-Short Courses.md)
+重要参考：[deeplearning.ai -- Short Courses](https://github.com/LloydS827/WhysAI-LLMFS-4E/blob/main/deeplearning.ai-ShortCourses.md)
 
 ## Key Resources
 
