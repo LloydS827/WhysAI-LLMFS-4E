@@ -10,7 +10,7 @@ WhysAI--**LLMFS**项目是由一系列mini-projects组成、围绕大模型主�
 
 本项目受到许多优秀的开源课程与资料启发，制作的课程资料包括Slides、Code、Video等，既用来记录学习现代人工智能技术的过程，又希望与大家共同探索AI技术的最佳学习路径。
 
-## 4E(For Engineer)系列课程内容（V0.1, 持续更新中）
+## 4E(For Engineer)系列课程内容（V0.2, 持续更新中）
 
 ### 简介
 
@@ -25,15 +25,16 @@ WhysAI--**LLMFS**项目是由一系列mini-projects组成、围绕大模型主�
 
 ### 课程内容
 
-| Theme & Contents                                             | Course Code & Materials | Project & Keywords                | Articles | References                                                   |
-| ------------------------------------------------------------ | ----------------------- | --------------------------------- | -------- | ------------------------------------------------------------ |
-| 1. Overview: 什么是机器学习与深度学习; 生成式人工智能GenAI工作原理;LLM核心技术与应用方法论 | 4S01                    | /                                 |          | [Generative AI for Everyone - DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-for-everyone/) |
-| 2.1 ChatBot APP：<br />通过构建ChatBot机器人，理解LLM应用架构Langchain、WebUI架构Streamlit等关键工具 | 4S02-1                  | P1：对话机器人ChatBot             |          |                                                              |
-| 2.2 检索增强RAG项目:<br />通过构建基于私有数据的检索增强系统，全面理解RAG技术路线与典型工作流程 | 4S02-2                  | P2: 私有知识问答的检索增强RAG项目 |          |                                                              |
-| 2.3 Agent 项目：<br />构建调用工具的智能体，深入理解前沿LLM-Based Agent技术，理解LLM As OS的技术愿景 | 4S02-3                  | P3：基于langchain的Agent项目      |          |                                                              |
-| 3. RAG In Depth                                              |                         |                                   |          |                                                              |
-| 3. Agent In Depth                                            |                         |                                   |          |                                                              |
-| 4. Inference Optimization                                    |                         |                                   |          |                                                              |
+| Theme                                 | Contents                                                     | Project & Keywords                | Articles | Main References                                              |
+| ------------------------------------- | ------------------------------------------------------------ | --------------------------------- | -------- | ------------------------------------------------------------ |
+| 4E01<br />工程师视角下的AI/GenAI      | 1. AI简要历史、技术范围<br />2. 多角度理解GenAI/LLM：任务/数据/CS<br />3. LLM能力边界<br />4. LLM全生命周期技术简介<br />5. LLM融入日常工作<br />6. LLM应用方法论与团队角色 | /                                 |          | 1. **Highly Recommanded**: Karpathy's Lecture on [ Intro to Large Language Models - YouTube](https://www.youtube.com/watch?v=zjkBMFhNj_g&t=2882s)<br />2. **Our CB-series**: [LloydS827/WhysAI-LLMFS-CB (github.com)](https://github.com/LloydS827/WhysAI-LLMFS-CB)<br />3. **GenAI Course by Andrew**: [Generative AI for Everyone - DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)<br />4. Sum of all short courses on deeplearnin.ai, cutoff-Aug.15.2024: [Resources - DeepLearning.AI](https://www.deeplearning.ai/resources/)<br />5. First DL end2end prject introduced by Andrej Karpathy: [Deep Neural Nets: 33 years ago and 33 years from now (karpathy.github.io)](https://karpathy.github.io/2022/03/14/lecun1989/)<br />6. The Bitter Lesson by Rich Sutton |
+| 4E02-1<br />实用Prompt Engineeing技巧 | 通过实际案例，掌握PE基本结构与方法论，进而试验PE实用技巧与最佳实践。同时介绍如COT/DSPY等前沿方法。 | P1: Prompt Engineering            |          |                                                              |
+| 4E02-2<br />ChatBot APP               | 1. langchain整体架构与安装使用方法 <br />2. Streamlit快速构建Web应用 <br />3. 接入闭源模<br /型API、本机部署开源模型 <br />4. 使用langchain创建含有对话历史的ChatBot应用 | P2：对话机器人ChatBot             |          |                                                              |
+| 4E02-3<br />检索增强RAG项目           | 1. RAG项目整体Pipeline<br />2. 建立知识库：文档解析、Embedding模型与向量数据库接入<br />3. 使用langchain实现RAG问答流程<br />4. 使用Streamlit创建RAG应用 | P3: 私有知识问答的检索增强RAG项目 |          |                                                              |
+| 4E02-4<br />Agent 项目                | 1. 认识LLM-Based Agent关键模块：规划、工具、记忆等<br />2. 通过langchain实现工具调用/text2Json功能，并了解自定义工具的创建方法<br />3. 创建能够自动化执行任务的Agent智能体<br />4. 使用streamlit创建智能体应用 | P4：基于langchain的Agent项目      |          |                                                              |
+| 4E03 Series<br />RAG In Depth<br />   | 基于4E02-3内容，深入理解RAG技术与实践，包括Agentic RAG、知识图谱+RAG、RAG架构Llamaindex等 |                                   |          |                                                              |
+| 4E04 Series<br />Agent In Depth       | 基于4E02-4内容，深入理解Agent技术与实践，包括MAS架构CrewAI、langgraph、Autogen等 |                                   |          |                                                              |
+| 4E05 Series<br />前沿技术赏析         | LLM-based Agent前沿成果展示，例如AutoGPT、ChatDev、Agent Q等项目<br />具身智能机器人前沿成果展示，例如Aloha、RT-H、无人机等 |                                   |          |                                                              |
 
 重要参考：[deeplearning.ai -- Short Courses](https://github.com/LloydS827/WhysAI-LLMFS-4E/blob/main/deeplearning.ai-ShortCourses.md)
 
